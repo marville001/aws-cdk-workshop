@@ -13,3 +13,10 @@ This repository contains various examples and templates that you can use to get 
 
 
 ## Localstack
+```bash
+
+python3 -m pip install localstack==0.9.0
+
+docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstac
+
+```
